@@ -8,7 +8,7 @@ import type {
 	RouteData,
 	SSRResult,
 } from '../@types/astro.js';
-import { type ActionAPIContext } from '../actions/runtime/store.js';
+import type { ActionAPIContext } from '../actions/runtime/store.js';
 import { createGetActionResult } from '../actions/utils.js';
 import {
 	computeCurrentLocale,
